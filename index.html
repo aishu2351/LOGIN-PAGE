@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<style>
+	font{
+			color:#EFEFEF;
+			face:Arieal;
+		}
+	
+	</style>
+</head>
+<body bgcolor="CCFFCC">
+<div class="login">
+	<div class="container">
+		<div class="divRow">
+		  <div class="divCell">  <img src="Logo.png" alt="John" style="width:10%"></div>
+			<div class="divRow">
+				<div class="row col-md-6 col-md-offset-3">
+					<div class="panel panel-primary">
+						<div class="panel-heading text-center">
+						 <h1><b><i>Sign Up</b></h1>
+					    </div>
+						<div class="panel-body">
+						  <form action="conn.php" method="post">
+							<div class="form-group">
+								<label for="Fname">Firstname:</label>
+								<input type="text" class="form-control" id="Firstname" placeholder="" name="firstname" required/>
+							</div><br>
+						<div class="form-group">
+							<label for="Lname">Last Name:</label>
+							<input type="text" class="form-control" id="Lastname" placeholder=""  name="lastname"required/>
+						</div><br>
+						</div>
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input type="text" class="form-control" id="email" placeholder="" name="email" required/>
+						</div><br>
+						<div class="form-group">
+							<label for="password">Password:</label>
+							<input type="password" class="form-control" id="password" placeholder="" name="password"required/>
+						</div><br>
+						<div class="form-group">
+							<label for="password">DOB:</label>
+							<input type="date" class="form-control" id="date" placeholder="" name="dob"required/>
+						</div><br>
+						<div class="form-group">
+						
+							<label for="gender">Gender:</label><br>
+							<div>
+								<label for="male" class="radio=inline"><input type="radio" name="gender" id="male" value="m">Male</label>
+								<label for="female" class="radio=inline"><input type="radio" name="gender" id="female" value="f">Female</label>
+								<label for="others" class="radio=inline"><input type="radio" name="gender" id="others" value="o">Others</label>
+						    </div>
+						</div><br>
+						<input type="submit" class="btn btn-primary">
+					     </form>   
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
